@@ -1,0 +1,27 @@
+name: kemal
+version: 0.25.1
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  radix:
+    github: luislavena/radix
+    version: ~> 0.3.8
+  kilt:
+    github: jeromegn/kilt
+    version: ~> 0.4.0
+  exception_page:
+    github: crystal-loot/exception_page
+    version: ~> 0.1.1
+  pg:
+    github: will/crystal-pg
+    version: "~> 0.5"
+  crecto:
+    github: fridgerator/crecto
+
+targets:
+  kemal:
+    main: src/kemal.cr
+
+author:
+- Serdar Dogruyol <dogruyolserdar@gmail.com>
